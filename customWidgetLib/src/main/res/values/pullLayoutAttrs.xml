@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="pullLayout">
+        <!--水平还是垂直-->
+        <attr name="orientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <!--往前拉是否开启-->
+        <attr name="pull_front_enable" format="boolean"></attr>
+        <!--往后拉是否开启-->
+        <attr name="pull_back_enable" format="boolean"></attr>
+    </declare-styleable>
+</resources>
